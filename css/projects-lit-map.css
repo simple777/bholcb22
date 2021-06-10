@@ -1,0 +1,318 @@
+/* Projects: lit map css */
+/**********************************************************************************************************************/
+
+.project-wrapper
+{
+	width: 95%;
+	margin: 3.3em auto;
+}
+
+.project
+{
+	padding: 5% 2%;
+
+	min-height: 1050px; /*temp*/
+}
+
+.project-lm-blocks-wrapper
+{
+	margin-bottom: 55em;
+}
+
+.project-lm-block
+{
+	width: 50%;
+	min-height: 500px;
+	float: left;
+	text-align: center;
+	/*position: relative;*/
+	/*outline: 1px red solid;*/
+}
+
+.project-lm-block a
+{
+	color: black;
+}
+
+.project-lm-block a:hover
+{
+	text-decoration: underline;
+}
+
+.project-lm-block-item
+{
+	position: absolute;
+}
+
+.project-lm-block-item-p
+{
+	font-size: .8em !important;
+	text-transform: uppercase;
+}
+
+.project-lm-block-left
+{
+	float: left;
+	/*outline: 1px solid green;*/
+}
+
+.project-lm-block-left-1
+{
+	 width: 80%;
+	 position: relative;
+	 margin-top: 18%;
+}
+
+.project-lm-block-left-1 img, .project-lm-block-left-1 a
+{
+	opacity: 0;
+}
+
+.project-lm-block-left-2
+{
+	width: 20%;
+}
+
+.project-lm-block-item-book
+{
+	float: left;
+}
+
+#project-lm-block-item-bh
+{
+	top: 391px;
+	right: 193px;
+	width: 140px;
+}
+#project-lm-block-item-kli
+{
+	top: 355px;
+	right: 144px;
+	width: 107px;
+}
+#project-lm-block-item-r
+{
+	top: 316px;
+	right: 209px;
+	width: 97px;
+}
+#project-lm-block-item-pro
+{
+	top: 320px;
+	right: 320px;
+	width: 97px;
+}
+#project-lm-block-item-sir
+{
+	top: 279px;
+	right: 271px;
+	width: 94px;
+}
+#project-lm-block-item-vse
+ {
+	 top: 233px;
+	 right: 191px;
+	 width: 122px;
+ }
+#project-lm-block-item-dub
+{
+	top: 189px;
+	right: 158px;
+	width: 98px;
+}
+
+/* Authors */
+
+.project-lm-block-author-row
+{
+	width: 100%;
+	position: relative;
+}
+
+.project-lm-block-author-cell
+{
+	width: 33.33333333333333%;
+	height: 80px;
+	float: left;
+	/*outline: 1px dashed grey;*/
+	text-align: left;
+	opacity: 0;
+}
+
+.project-lm-block-author-cell-img
+{
+	margin-bottom: 1em;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	border: 1px solid #999;
+	width: 60px;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.project-lm-block-author-cell a
+{
+	font-size: 1em;
+	display: table;
+	padding-left: .6em;
+	border-left: 1px dotted silver;
+}
+
+.project-lm-block-author-cell a:hover img
+{
+	box-shadow: 0px 0px 10px #feb52c;
+}
+
+.project-lm-block-author-cell a:hover p
+{
+	color: #feb52c;
+}
+
+.project-lm-block-author-cell a:hover
+{
+	text-decoration: none;
+}
+
+.project-lm-block-author-cell p
+{
+	font-size: 1em !important;
+	display: table-cell;
+	vertical-align: middle;
+	padding: .5em;
+}
+
+.project-comment
+{
+
+}
+
+.project-comment p
+{
+	font-size: 1em;
+	text-align: center;
+}
+
+.project-comment hr
+{
+	border-top: 1px dotted #ccc;
+	width: 50%;
+}
+
+
+@media screen and (max-width: 1583px)
+{
+	.project
+	{
+		height: 1387px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media screen and (max-width: 1380px)
+{
+
+	.project-lm-block-left-1
+	{
+		width: 90%;
+		position: relative;
+	}
+
+	.project-lm-block-left-2
+	{
+		width: 10%;
+	}
+
+	.project-lm-block-author-cell p
+	{
+		font-size: .8em !important;
+	}
+
+}
+
+/* One block under another */
+@media screen and (max-width: 1280px)
+{
+	.project
+	{
+		height: 2099px;
+	}
+
+	.project-lm-blocks-wrapper
+	{
+		margin-bottom: 98em;
+	}
+
+	.map
+	{
+		margin: 7% 0;
+	}
+
+	.project-lm-block-left-1
+	{
+		width: 456px;
+		position: relative;
+		text-align: center;
+		left: 33.33333333333333%;
+		margin-top: 0 !important;
+	}
+
+	.project-lm-block-left-2
+	{
+		width: 0%;
+	}
+
+	.project-lm-block
+	{
+		width: 100%;
+		float: left;
+	}
+
+	.project-lm-block-author-cell a
+	{
+		margin-left: 26%;
+	}
+
+
+	.project-lm-block-author-cell p
+	{
+		font-size: 1.2em !important;
+	}
+
+	.project-lm-block-author-cell-img
+	{
+		width: 70px;
+	}
+
+	.project-comment
+	{
+
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1110px) {
+
+	.project
+	{
+		height: 2138px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+}
+
+
+/*Preloading images*/
+/**********************************************************************************************************************/
+
+.img_preload
+{
+
+}

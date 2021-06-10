@@ -1,0 +1,122 @@
+/* Projects: victory */
+/**********************************************************************************************************************/
+
+.project-victory-wrapper
+{
+	width: 100%;
+	margin: 0 auto;
+	padding: 7% 0;
+}
+
+.project-victory-wrapper::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .7;
+	z-index: -1;
+
+	background: url(../images/pages/wow-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.project-victory
+{
+    position: relative;
+    width: 90%;
+    margin: 0 3% 0;
+    background: white;
+    opacity: .85;
+    padding: 3% 2% 5%;
+    display: inline-table;
+}
+
+.project-victory-col1, .project-victory-col2 
+{
+	position: relative;
+	width: 45%;
+	float: left;
+	margin: 0 auto;
+	padding: 1%;
+}
+
+.project-victory-col2  
+{
+	padding-top: 0 !important;
+}
+
+.project-victory-col2  
+{
+	padding-left: 4% !important;
+}
+
+.project-victory h2
+{
+	text-transform: uppercase;
+	margin: -2em auto 0em;
+	text-align: center;
+	padding-bottom: 1em;
+	color: #c13627;
+	font-size: 3em;
+	text-align: right;
+}
+
+.project-victory h3
+{
+    background: #cabca5;
+    width: auto;
+    display: inline-block;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
+.project-victory p
+{
+	font-size: 1.3em;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+.ex3 h3:after 
+{
+	content: "";
+	position: absolute;
+	height: 22px;
+	width: 5px;
+	background:rgb(81, 227, 213);
+	top: 9%;
+	left: 21%;
+}
+.project-victory-block-wrapper 
+{
+	width: 100%;
+	margin: 5% auto;
+	margin-bottom: 15%;
+}
+
+.project-victory-block 
+{
+	position: relative;
+	width: 50%;
+	float: left;
+	display: table;
+}
+
+.project-victory-block a 
+{
+	vertical-align: super;
+	padding-left: 10px;
+}
+
+.project-victory-block-full-width 
+{
+	width: 100%;
+	margin-top: 5%;
+}

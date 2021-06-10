@@ -1,0 +1,97 @@
+/* Books */
+/**********************************************************************************************************************/
+
+.books-wrapper
+{
+	width: 60%;
+	margin: 0 auto 1.5em;
+	padding: 2em 0;
+}
+
+.books-wrapper::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .2;
+	z-index: -1;
+
+	background: url(../images/pages/news-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.books
+{
+
+}
+
+.books h2
+{
+	text-transform: uppercase;
+	margin: 2em auto;
+	text-align: center;
+	font-size: 2em;
+}
+
+.books h3
+{
+	text-transform: uppercase;
+	margin: 1em auto;
+	text-align: center;
+	margin-bottom: 1em;
+	background: #feb52c;
+	padding: 10px;
+}
+
+.books-list li
+{
+	font-size: 1.3em;
+	padding: 1.2em;
+	list-style: none;
+	background: url(../images/pages/books-of-month/book-ico-3.png) no-repeat 0 1em;
+	padding-left: 3.7em;
+}
+
+.books p
+{
+	font-size: 1.3em;
+	text-align: justify;
+	line-height: 1.5em;
+}
+
+.books-table
+{
+	width: 100%;
+	border: 1px dashed #5c4746;
+}
+
+.books-table th, tr, td
+{
+	border: 1px dashed #5c4746;
+}
+
+.books-table-book-img
+{
+	min-width: 205px;
+	text-align: center;
+	padding: 0.3em;
+}
+
+.books-table-book-info, .books-table-book-age
+{
+	font-size: 1.3em;
+	text-align: justify;
+	line-height: 1.5em;
+	padding: 0 3em;
+}
+
+.books-table-book-age
+{
+
+}
