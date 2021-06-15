@@ -67,9 +67,15 @@
 							</div>
 						
 						</div>
+						
+											
+						<div class="clearfix" style="width: 77%"><p>Результаты опроса [Обновлено: 2021-06-11]</p></div>
+						
+						<img src="<?php echo SITEURL;?>images/pages/about/nok/2021-06-11/2021-06-11-d1.jpg" alt="Диаграмма" style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);">
 
                         <!-- <span style="float: right">&#9998;&nbsp;Администрация<span> -->
 					</div>
+					
 				</div>
 
 			</main>

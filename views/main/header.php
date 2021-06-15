@@ -62,16 +62,6 @@
                             <div class="slides-navigation"></div>
                         </div>
                     </div>
-					
-                    <div class="slide">
-                        <div class="slide-image-wrapper "><a href="<?php echo SITEURL;?>concurs/vivat-biblioteka.html" class="slide-href" target="_blank"><img src="<?php echo SITEURL;?>media/afisha/vivat-biblioteka.jpg"></a></div>
-                        <div class="slide-text-wrapper">
-                            <h2 class="slide-header">ВИВАТ, БИБЛИОТЕКА!</h2>
-                            <p class="slide-description">Конкурс, посвященный 125-летнему юбилею Белохолуницкой центральной библиотеки</p>
-                            <div class="slides-navigation"></div>
-                        </div>
-                    </div>
-
 
                     <div class="slides-fader-controls">
                         <div class="slides-fader-controls-page prev" data-target="prev">&lsaquo;</div>
