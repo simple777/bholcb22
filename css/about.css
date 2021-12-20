@@ -3,8 +3,9 @@
 
 .about-history-wrapper
 {
-    width: 50%;
-    margin: 1.5em auto;
+	width: 100%;
+	margin: 0 auto;
+	padding: 7% 0;
 }
 
 .about-history-wrapper::before
@@ -15,7 +16,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .7;
+    opacity: .5;
     z-index: -1;
 
     background: url(../images/pages/page-bg.jpg) no-repeat center center fixed;
@@ -27,17 +28,24 @@
 
 .about-history
 {
-    background: white;
-    opacity: .95;
-    padding: 7% 10%;
+	position: relative;
+	width: 70%;
+	margin: 0 auto;
+	background: white;
+	opacity: .85;
+	padding: 3% 2% 5%;
 }
 
 .about-history h2
 {
-    text-transform: uppercase;
-    margin: 1em auto;
-    text-align: center;
-    padding-bottom: 1em;
+	text-transform: uppercase;
+	margin: -2.2em auto 0em;
+	text-align: center;
+	padding-bottom: 1em;
+	color: #feb52c;
+	font-size: 3em;
+	text-align: right;
+	text-shadow: 1px 1px 1px #000;
 }
 
 .about-history p
@@ -47,6 +55,23 @@
     line-height: 1.5em;
 }
 
+.theme1 
+{
+	background: url(../images/pages/readers-services-bg.jpg) no-repeat center center fixed;
+}
+
+/* About - Common */
+/**********************************************************************************************************************/
+
+.common p 
+{
+    line-height: 1em;
+}
+
+.common strong 
+{
+	color: #1526a1 !important;
+}
 
 
 /* About - Structure */
@@ -169,7 +194,7 @@
 
 
 
-/* About - History */
+/* About - Success */
 /**********************************************************************************************************************/
 
 .about-success-wrapper
@@ -352,6 +377,149 @@
     content: "\269C";
 }
 
+.about-offdocs-u-wrapper
+{
+
+}
+
+.about-offdocs-u
+{
+    position: relative;
+    width: 62%;
+    margin: 0 auto;
+    background: rgba(255,255,255,.3);
+    padding: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 25px;
+}
+
+.about-offdocs-u p
+{
+    line-height: 1em;
+    color: #684f4a;
+}
+
+.about-offdocs-u p span
+{
+    color: #000;
+}
+
+
+/* About - Contacts */
+/**********************************************************************************************************************/
+
+.about-history table 
+{
+	position: relative;
+	width: 100%;
+}
+
+.about-history img 
+{
+	width: 100%;
+}
+
+.contacts-name 
+{
+	width: 50%;
+}
+
+.contacts-map 
+{
+	width: 50%;
+}
+
+.contacts img
+{
+	width: auto;
+}
+
+/* Offdocs */
+/**********************************************************************************************************************/
+
+.table-offdocs td
+{
+    display: inline-table;
+    width: 16%;
+    vertical-align: top;
+}
+
+.table-offdocs td span
+{
+    background: rgba(255,255,255,.3);
+    padding: 2%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+.table-offdocs img, .table-offdocs .minimized
+{
+    width: 75%;
+}
+
+.table-offdocs-2 {
+
+    width: 80% !important;
+    margin-bottom: 20px;
+    border: 5px solid #fff;
+    border-top: 5px solid #fff;
+    border-bottom: 3px solid #fff;
+    border-collapse: collapse;
+    outline: 3px solid #feb52c;
+    font-size: 15px;
+    background: #fff!important;
+
+}
+
+.table-offdocs-2 th {
+
+    font-weight: bold;
+    padding: 7px;
+    background: #feb52c;
+    border: none;
+    text-align: left;
+    font-size: 15px;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #feb52c;
+
+}
+
+.table-offdocs-2 td {
+
+    padding: 7px;
+    border: none;
+    border-top: 3px solid #fff;
+    border-bottom: 3px solid #fff;
+    font-size: 15px;
+
+}
+
+.table-offdocs-2 tbody tr:nth-child(even){
+
+    background: #eae7e2 !important;
+
+}
+
+/* About info-others */
+/**********************************************************************************************************************/
+
+.info-other-wrapper
+{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.info-other
+{
+    position: relative;
+    width: 75%;
+    margin: 0 auto;
+    background: white;
+    opacity: .85;
+    padding: 3% 2% 5%;
+}
 
 
 

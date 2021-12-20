@@ -76,7 +76,7 @@
                         </div>
 
                         <div class="filials-row clearfix">
-                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-a-default.png"></div>
+                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-gurenki.png"></div>
                             <div class="filials-title">
                                 <h2>Гуренская библиотека</h2>
                                 <div class="filials-adress">613208, д. Гурёнки, ул. Советская, д. 10</div>
@@ -105,7 +105,7 @@
                         </div>
 
                         <div class="filials-row clearfix">
-                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-a-default.png"></div>
+                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-a-ivancevo.png"></div>
                             <div class="filials-title">
                                 <h2>Иванцевская библиотека</h2>
                                 <div class="filials-adress">13221, с. Иванцево, ул. Советская, д. 24</div>
@@ -154,7 +154,7 @@
                         </div>
 
                         <div class="filials-row clearfix">
-                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-a-default.png"></div>
+                            <div class="filials-image"><img src="<?php echo SITEURL;?>images/pages/filials/filial-a-prokopie.png"></div>
                             <div class="filials-title">
                                 <h2>Прокопьевская библиотека</h2>
                                 <div class="filials-adress">613216, с. Прокопье, ул. Новая, д. 13</div>

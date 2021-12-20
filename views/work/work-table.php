@@ -36,7 +36,264 @@
                     <div class="work-table">
 
                         <h2>На рабочий стол</h2>
+						
+						<h3>2021 год</h3>
 
+                        <table class="table-two-cols">
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">План 2021 г.</div>
+                                    <div class="table-content-desc">План МБУК Белохолуницкая ЦБ на 2021 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/olQa5RddXRGAGw" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/olQa5RddXRGAGw" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							<tr>
+                                <td>
+                                    <div class="table-content-title">Работа с детьми летом 2021 г.</div>
+                                    <div class="table-content-desc">План по работе с детьми на 2021 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/bVjgIvqMTn-9uA" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/bVjgIvqMTn-9uA" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							<tr>
+                                <td>
+                                    <div class="table-content-title">Работа с детьми 2021 г.</div>
+                                    <div class="table-content-desc">План по работе с детьми на 2021 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/b4CYkp1mVC2jxg" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/b4CYkp1mVC2jxg" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							<tr>
+                                <td>
+                                    <div class="table-content-title">Работа с юношеством 2021 г.</div>
+                                    <div class="table-content-desc">План по работе с юношеством на 2021 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/Ws4m_vwhcR96Hg" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/Ws4m_vwhcR96Hg" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+						
+						<h3>2020 год</h3>
+
+                        <table class="table-two-cols">
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">2020 - Год памяти и славы</div>
+                                    <div class="table-content-desc">75-летие Победы в Великой отечественной войне</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/gLDgZ9oIUQUZFQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/gLDgZ9oIUQUZFQ" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Возраст раздумий и тревог</div>
+                                    <div class="table-content-desc">Отчёт о работе с молодёжью и юношеством за 2020 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/E29lymx53yW1ow" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/E29lymx53yW1ow" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Отчёт МБУК за 2020 год</div>
+                                    <div class="table-content-desc">Отчет за 2020 год</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/uI0BFqmiqDn1hw" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/uI0BFqmiqDn1hw" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							<tr>
+                                <td>
+                                    <div class="table-content-title">Страна читающего детства</div>
+                                    <div class="table-content-desc">Отчет по работе с детьми за 2020 год</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/BQKku4WB-ywtuQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/BQKku4WB-ywtuQ" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+
+						
+						<h3>2019 год</h3>
+
+                        <table class="table-two-cols">
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">2019 - Год театра</div>
+                                    <div class="table-content-desc">Год театра в России</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/20lsMpNONUOd5A" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/20lsMpNONUOd5A" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Библионочь 2019</div>
+                                    <div class="table-content-desc">Посвящена родному краю в связи с юбилейными датами города и района</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/2Fr6wOElEraOVQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/2Fr6wOElEraOVQ" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Возраст раздумий и тревог</div>
+                                    <div class="table-content-desc">Отчёт о работе с молодёжью и юношеством за 2019 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/TIs734nIk2BUCQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/TIs734nIk2BUCQ" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Летний марафон 2019</div>
+                                    <div class="table-content-desc">Организация летнего досуга детей</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/rhsV3WlqIKrg_g" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/rhsV3WlqIKrg_g" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							  <tr>
+                                <td>
+                                    <div class="table-content-title">Отчёт МБУК за 2019 год</div>
+                                    <div class="table-content-desc">Отчет за 2019 год</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/mtE0PFYRKQvHqg" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/mtE0PFYRKQvHqg" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+							
+							<tr>
+                                <td>
+                                    <div class="table-content-title">Страна читающего детства</div>
+                                    <div class="table-content-desc">Отчет по работе с детьми за 2019 год</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/4IhD4a6hScp9Cw" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/4IhD4a6hScp9Cw" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
+						
 
                         <h3>2017 год</h3>
 

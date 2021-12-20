@@ -6,7 +6,7 @@
     <meta name="keywords" content="белохолуницкая, библиотека, официальный сайт, библиотека, белая холуница">
     <title>МБУК Белохолуницкая центральная библиотека официальный сайт</title>
     <?php include_once  SITEROOTDIR.'views/main/head_libs.php'; ?>
-    <link rel="stylesheet" href="<? echo SITEURL; ?>css/about-structure.css">
+    <link rel="stylesheet" href="<? echo SITEURL; ?>css/about-structure.css?v04">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 </head>
@@ -43,11 +43,11 @@
 
                                         <div class="department-about">
 
-                                            <img src="<?php echo SITEURL; ?>images/pages/structure/sector_kraeved/kraeved.jpg" width="800px" height="600px" class="department-prev">
+                                            <img src="<?php echo SITEURL; ?>images/pages/structure/sector_kraeved/kraeved-2021.jpg" width="800px" height="600px" class="department-prev">
                                             <div>Организован 1 апреля 2008 г.</div>
                                             <img src="<?php echo SITEURL; ?>images/pages/filials/ico/phone.png" width="25px" height="25px">
                                             Тел. (83364) 4-15-01
-                                            <div>Заведующая: Михалева Е.Л.</div>
+                                            <div>Заведующая: Ренева Елена Леонидовна </div>
 
                                         </div>
 
@@ -63,19 +63,19 @@
 
                                         <div class="department-workers-item">
                                             <div class="department-workers-item-main">
-                                                <img src="<?php echo SITEURL; ?>images/pages/structure/sector_kraeved/people/mihaleva-el.png" width="180px" height="180px">
-                                            </div>
-                                            <div class="department-workers-item-contacts">
-                                                <div class="department-fio">Михалева<br> Елена Леонидовна</div>
-                                            </div>
-                                        </div>
-
-                                        <div class="department-workers-item">
-                                            <div class="department-workers-item-main">
                                                 <img src="<?php echo SITEURL; ?>images/pages/structure/sector_kraeved/people/reneva-el.png" width="180px" height="180px">
                                             </div>
                                             <div class="department-workers-item-contacts">
                                                 <div class="department-fio">Ренева<br> Елена Леонидовна</div>
+                                            </div>
+                                        </div>
+										
+										<div class="department-workers-item">
+                                            <div class="department-workers-item-main">
+                                                <img src="<?php echo SITEURL; ?>images/pages/structure/sector_dosug/people/rogneva-os.png" width="180px" height="180px">
+                                            </div>
+                                            <div class="department-workers-item-contacts">
+                                                <div class="department-fio">Рожнева<br> Ольга Сергеевна</div>
                                             </div>
                                         </div>
 

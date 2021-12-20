@@ -1,0 +1,6 @@
+/!ungit/
+/.idea/
+/.git/
+/functions/sql.php
+*.sql
+/media/

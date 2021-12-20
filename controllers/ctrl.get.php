@@ -505,6 +505,11 @@ if (isset($_GET['route']))
                                 include_once SITEROOTDIR.'views/readers/rules.php';
                                 break;
                             }
+							
+							case 'plans.html': {
+                                include_once SITEROOTDIR.'views/readers/plans.php';
+                                break;
+                            }
                         }
 
                     }
@@ -534,6 +539,15 @@ if (isset($_GET['route']))
                             break;
                         }
                         case 'programs.html': {
+							
+							require_once SITEROOTDIR.'models/program.php';
+							require_once SITEROOTDIR.'functions/sql.php';
+							
+							 //connect to database
+							$mysqli = sql_Connect();
+							
+							$program = program_Get_all_ex_archive($mysqli, 100);
+														
                             include_once SITEROOTDIR.'views/work/programs.php';
                             break;
                         }
@@ -569,12 +583,21 @@ if (isset($_GET['route']))
                 {
                     switch ($_GET['item'])
                     {
+						case 'contacts.html': {
+                            include_once SITEROOTDIR.'views/about/contacts.php';
+                            break;
+                        }
                         case 'history.html': {
                             include_once SITEROOTDIR.'views/about/history.php';
                             break;
                         }
                         case 'structure.html': {
                             include_once SITEROOTDIR.'views/about/structure.php';
+                            break;
+                        }
+						
+						case 'common.html': {
+                            include_once SITEROOTDIR.'views/about/common.php';
                             break;
                         }
                         case 'success.html': {
@@ -588,6 +611,14 @@ if (isset($_GET['route']))
 						
 						case 'offdocs.html': {
                             include_once SITEROOTDIR.'views/about/offdocs.php';
+                            break;
+                        }
+                        case 'info-action.html': {
+                            include_once SITEROOTDIR.'views/about/info-action.php';
+                            break;
+                        }
+                        case 'info-other.html': {
+                            include_once SITEROOTDIR.'views/about/info-other.php';
                             break;
                         }
 						
@@ -772,6 +803,10 @@ if (isset($_GET['route']))
                             include_once SITEROOTDIR.'views/afisha/carantin-2020.php';
                             break;
                         }
+						case 'ahi-strahi.html': {
+                            include_once SITEROOTDIR.'views/afisha/2021-10-22-ahi-str.php';
+                            break;
+                        }
                     }
 
                 }
@@ -797,7 +832,7 @@ if (isset($_GET['route']))
                     switch ($_GET['item'])
                     {
 						case 'new-books.html': {
-                            include_once SITEROOTDIR.'views/reading/2021-02-new.php';
+                            include_once SITEROOTDIR.'views/reading/2021-08-new.php';
                             break;
                         }
 						
@@ -855,6 +890,12 @@ if (isset($_GET['route']))
                         case 'bn-2021.html':
                         {
                             include_once SITEROOTDIR.'views/events/2021/bn.php';
+                            break;
+                        }
+						
+						case 'ni-2021.html':
+                        {
+                            include_once SITEROOTDIR.'views/events/2021/ni.php';
                             break;
                         }
 
@@ -926,11 +967,72 @@ if (isset($_GET['route']))
                                 include_once SITEROOTDIR.'views/projects/play/play-dzo-2021.php';
                                 break;
                             }	
+							
+						case 'play-ci-2021-lit.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-lit.php';
+                                break;
+                            }
+                        case 'play-ci-2021-diff.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-diff.php';
+                                break;
+                            }
+                        case 'play-ci-2021-history.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-history.php';
+                                break;
+                            }
+                        case 'play-ci-2021-home.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-home.php';
+                                break;
+                            }
+                        case 'play-ci-2021-iss.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-iss.php';
+                                break;
+                            }
+                        case 'play-ci-2021-kosmos.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-kosmos.php';
+                                break;
+                            }
+                        case 'play-ci-2021-kraeved.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-kraeved.php';
+                                break;
+                            }
+                        case 'play-ci-2021-nature.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-nature.php';
+                                break;
+                            }
+                        case 'play-ci-2021-posl.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-posl.php';
+                                break;
+                            }
+                        case 'play-ci-2021-pravo.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-pravo.php';
+                                break;
+                            }
+                        case 'play-ci-2021-russ.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-russ.php';
+                                break;
+                            }
+                        case 'play-ci-2021-science.html':
+                            {
+                                include_once SITEROOTDIR.'views/projects/play/play-ci-2021/play-ci-2021-science.php';
+                                break;
+                            }
 						case 'victory.html':
                             {
                                 include_once SITEROOTDIR.'views/projects/victory/victory.php';
                                 break;
-                            }		
+                            }	
 
                     }
                 }

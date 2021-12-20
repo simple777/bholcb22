@@ -6,7 +6,7 @@
     <meta name="keywords" content="белохолуницкая, библиотека, официальный сайт, библиотека, белая холуница">
     <title>МБУК Белохолуницкая центральная библиотека официальный сайт</title>
     <?php include_once  SITEROOTDIR.'views/main/head_libs.php'; ?>
-    <link rel="stylesheet" href="<? echo SITEURL; ?>css/about-structure.css">
+    <link rel="stylesheet" href="<? echo SITEURL; ?>css/about-structure.css?v05">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 </head>
@@ -70,17 +70,18 @@
                                                 <div class="department-fio">Адекова<br> Татьяна Ивановна</div>
                                             </div>
                                         </div>
+										
 
-                                        <div class="department-workers-item">
+										
+										<div class="department-workers-item">
                                             <div class="department-workers-item-main">
-                                                <img src="<?php echo SITEURL; ?>images/pages/structure/sector_dosug/people/rogozina-eo.png" width="180px" height="180px">
+                                                <img src="<?php echo SITEURL; ?>images/pages/structure/sector_dosug/people/rodigina-an.png" width="180px" height="180px">
                                             </div>
                                             <div class="department-workers-item-contacts">
-                                                <div class="department-fio">Рогозина<br> Елена Олеговна</div>
+                                                <div class="department-fio">Родыгина<br> Александра Николаевна</div>
                                             </div>
                                         </div>
-
-
+										
                                 </div>
                             </div>
                         </div>

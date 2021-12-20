@@ -9,6 +9,7 @@
             </a>
             <ul class="menu-drop">
                 <li><a href="<?php echo SITEURL; ?>readers/services.html">Услуги</a></li>
+                <li><a href="<?php echo SITEURL; ?>readers/plans.html">Планы мероприятий</a></li>
                 <li><a href="<?php echo SITEURL; ?>readers/clubs.html">Клубы читателей</a></li>
                 <li><a href="<?php echo SITEURL; ?>readers/rules.html">Правила пользования</a></li>
             </ul>
@@ -26,7 +27,7 @@
                 <!-- <li><a href="#">Методическая копилка</a></li> -->
             </ul>
         </li>
-        <li class="has-drop">
+        <li class="has-drop"">
             <a href="#">
                 <span class="menu-name">О библиотеке</span>
                 <span class="menu-arrow"></span>
@@ -34,11 +35,19 @@
             <ul class="menu-drop">
                 <li><a href="<?php echo SITEURL; ?>about/history.html">История</a></li>
                 <li><a href="<?php echo SITEURL; ?>about/structure.html">Структура</a></li>
+                <li><a href="<?php echo SITEURL; ?>about/common.html">Общая информация</a></li>
                 <li><a href="<?php echo SITEURL; ?>about/success.html">Успехи</a></li>
                 <li><a href="<?php echo SITEURL; ?>about/offdocs.html">Официальные документы</a></li>
+                <li><a href="<?php echo SITEURL; ?>about/info-action.html">Информация о деятельности организации</a></li>
+                <li><a href="<?php echo SITEURL; ?>about/info-other.html">Иная информация</a></li>
                 <!--<li><a href="<?php //echo SITEURL; ?>about/partners.html">Партнеры</a></li>-->
                 <!-- <li><a href="#">На страницах прессы</a></li> -->
             </ul>
+        </li>
+		<li>
+            <a href="<?php echo SITEURL; ?>about/contacts.html">
+                <span class="menu-name">Контакты</span>
+            </a>
         </li>
     </ul>
 
@@ -46,7 +55,7 @@
         <div class="good-vision"></div>
         <div class="but-vk"><a href="https://vk.com/id359922818" title="Мы Вконтакте" target="_blank"></a></div>
         <div class="e-cat"><a href="http://opac.herzenlib.ru/cgiopac/opacg/opac.exe?arg0=sbelh&arg1=12345&TypeAccess=PayAccess" title="Электронный каталог" target="_blank"></a></div>
-        <div class="nok"><a href="<?php echo SITEURL; ?>about/nok.html"><span class="nok-text">Оценка качества</span></a></div>
+        <!--<div class="nok"><a href="<?php //echo SITEURL; ?>about/nok.html"><span class="nok-text">Оценка качества</span></a></div>-->
         <div class="site-search"></div>
         <div class="but-mail"></div>
         <div class="but-youtube"></div>

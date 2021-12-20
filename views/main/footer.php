@@ -11,7 +11,7 @@
                                 <li><a href="<?php echo SITEURL; ?>print.html">Фотопечать</a></li>
                                 <li><a href="<?php echo SITEURL; ?>readers/clubs.html">Клубы читателей</a></li>
                                 <li><a href="<?php echo SITEURL; ?>readers/rules.html">Правила пользования</a></li>
-                                <li><a href="#">Электронный каталог</a></li>
+                                <li><a href="http://opac.herzenlib.ru/cgiopac/opacg/opac.exe?arg0=sbelh&arg1=12345&TypeAccess=PayAccess" target="_blank">Электронный каталог</a></li>
                             </ul>
                         </nav>
                     </section>
@@ -24,7 +24,6 @@
                                 <li><a href="<?php echo SITEURL; ?>work/programs.html">Программы, проекты</a></li>
                                 <li><a href="<?php echo SITEURL; ?>work/work-table.html">На рабочий стол</a></li>
                                 <li><a href="<?php echo SITEURL; ?>work/research.html">Наши исследования</a></li>
-                                <li><a href="#">Методическая копилка</a></li>
                             </ul>
                         </nav>
                     </section>
@@ -33,11 +32,11 @@
                         <nav role="navigation" class="">
                             <h4 class="rounded-corners-5px">О Библиотеке</h4>
                             <ul class="footer-nav-list">
+                                <li><a href="<?php echo SITEURL; ?>about/contacts.html">Контакты</a></li>
                                 <li><a href="<?php echo SITEURL; ?>about/history.html">История</a></li>
                                 <li><a href="<?php echo SITEURL; ?>about/structure.html">Структура</a></li>
                                 <li><a href="<?php echo SITEURL; ?>about/success.html">Успехи</a></li>
                                 <li><a href="<?php echo SITEURL; ?>about/partners.html">Партнеры</a></li>
-                                <li><a href="#">На страницах прессы</a></li>
                             </ul>
                         </nav>
                     </section>

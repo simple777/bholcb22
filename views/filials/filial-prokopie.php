@@ -42,11 +42,10 @@
 
                                     <div class="filial-common-info-time">
                                         <img src="<? echo SITEURL; ?>images/pages/filials/ico/clock.png" width="25px" height="25px">
-                                        Режим работы: Пн. с 9:00 до 16:00, без обеда<br>
-                                        Вт.-Пт., Вс. с 10:00 до 18:00, обед с 12:00 до 13:00
+                                        Режим работы: Пн.-Cб. с 13:00 до 16:36, без обеда
                                     </div>
 
-                                    <div class="filial-common-info-boss">Заведующая: Нина Петровна Салтанова</div>
+                                    <div class="filial-common-info-boss">Заведующая: Шабалина Вера Ивановна</div>
 
                                     <div class="filial-common-info-adress">613216 с. Прокопье, ул. Новая, д. 13</div>
 

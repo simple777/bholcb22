@@ -60,7 +60,7 @@
                                                 <div class="department-fio">Тарасова Галина Николаевна</div>
                                                 <div>Заместитель директора</div>
                                                 <img src="<?php echo SITEURL; ?>images/pages/filials/ico/phone.png" width="25px" height="25px">
-                                                Тел. (83364) 4-13-68
+                                                Тел. (83364) 4-15-02
                                             </div>
                                         </div>
 

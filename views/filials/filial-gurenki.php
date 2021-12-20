@@ -42,7 +42,7 @@
 
                                     <div class="filial-common-info-time">
                                         <img src="<? echo SITEURL; ?>images/pages/filials/ico/clock.png" width="25px" height="25px">
-                                        Режим работы: Пн.-Cб. с 12:00 до 18:00, без обеда
+                                        Режим работы: Пн.-Cб. с 11:00 до 17:00, без обеда
                                     </div>
 
                                     <div class="filial-common-info-boss">Заведующая: Татьяна Фёдоровна Королева</div>

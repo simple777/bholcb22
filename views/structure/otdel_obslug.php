@@ -80,19 +80,19 @@
 
                                         <div class="department-workers-item">
                                             <div class="department-workers-item-main">
-                                                <img src="<?php echo SITEURL; ?>images/pages/structure/otdel_obslug/people/yagubova-ov.png" width="180px" height="180px">
+                                                <img src="<?php echo SITEURL; ?>images/pages/structure/otdel_obslug/people/ovechkina-lu.png" width="180px" height="180px">
                                             </div>
                                             <div class="department-workers-item-contacts">
-                                                <div class="department-fio">Ягубова<br> Ольга Владимировна</div>
+                                                <div class="department-fio">Овечкина<br> Лилия Юрьевна</div>
                                             </div>
                                         </div>
 
                                         <div class="department-workers-item">
                                             <div class="department-workers-item-main">
-                                                <img src="<?php echo SITEURL; ?>images/pages/structure/otdel_obslug/people/myakisheva-iv.png" width="180px" height="180px">
+                                                <img src="<?php echo SITEURL; ?>images/pages/structure/otdel_obslug/people/medyanceva-ki.png" width="180px" height="180px">
                                             </div>
                                             <div class="department-workers-item-contacts">
-                                                <div class="department-fio">Мякишева<br> Ирина Витальевна</div>
+                                                <div class="department-fio">Медянцева<br> Кристина Ильясовна</div>
                                             </div>
                                         </div>
 

@@ -43,16 +43,16 @@
         <div class="content-line-block-content">
             <div class="content-line-block-content-in">
                 <div class="content-line-block-content-in-text">
-                    <h2 class="content-line-block-header">Библионочь</h2>
+                    <h2 class="content-line-block-header">Ночь искусств</h2>
                 </div>
             </div>
         </div>
 
         <div class="content-line-block-bg">
-            <img src="images/blocks/2021-7-bn.jpg">
+            <img src="images/blocks/2021-1-niss.jpg">
         </div>
 
-        <a href="<?php echo SITEURL;?>events/bn-2021.html" class="content-line-block-link"></a>
+        <a href="<?php echo SITEURL;?>events/ni-2021.html" class="content-line-block-link"></a>
         <!-- <a href="<?php //echo SITEURL;?>concurs/pamjat-skvoz-pokolenija-dorogi-frontovye.html" class="content-line-block-content-in-text-new" target="_blank">Новый конкурс!</a> -->
 
     </div>

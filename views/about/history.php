@@ -6,7 +6,7 @@
     <meta name="keywords" content="белохолуницкая, библиотека, официальный сайт, библиотека, белая холуница">
     <title>МБУК Белохолуницкая центральная библиотека официальный сайт</title>
     <?php include_once  SITEROOTDIR.'views/main/head_libs.php'; ?>
-    <link rel="stylesheet" href="<?php echo SITEURL;?>css/about.css">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/about.css?v02">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 </head>
@@ -32,9 +32,9 @@
 			<main role="main" class="content">
 
                 <div class="about-history-wrapper">
-                    <div class="about-history">
+                    <div class="about-history" style="width: 60%">
 
-                        <h2>История библиотечного дела Белохолуницкого района</h2>
+                        <h2>История библиотечного дела района</h2>
 
                         <img src="<?php echo SITEURL;?>images/pages/about/history/ourdays/ourdays.jpg" class="lazy">
                         <div class="image-caption">Библиотека в наши дни</div>

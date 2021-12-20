@@ -6,8 +6,8 @@
     <meta name="keywords" content="белохолуницкая, библиотека, официальный сайт, библиотека, белая холуница">
     <title>МБУК Белохолуницкая центральная библиотека официальный сайт</title>
     <?php include_once  SITEROOTDIR.'views/main/head_libs.php'; ?>
-    <link rel="stylesheet" href="<?php echo SITEURL;?>css/about.css">
-    <link rel="stylesheet" href="<?php echo SITEURL;?>css/larger.css">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/about.css?v03">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/larger.css?v02">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 </head>
@@ -37,20 +37,85 @@
 
                         <h2>Наши успехи</h2>
 
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-01.jpg" class="minimized" alt="Лучшее административное здание 2009 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-02.jpg" class="minimized" alt="Год молодежи 2009 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-03.jpg" class="minimized" alt="Экология 2009 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-04.jpg" class="minimized" alt="Мои знаменитые родственники">
+                        <table style="width: 100%; margin: 0 auto; text-align: center" class="table-offdocs">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-01.jpg" class="minimized" alt="Лучшее административное здание 2009 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-02.jpg" class="minimized" alt="Год молодежи 2009 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-03.jpg" class="minimized" alt="Экология 2009 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-04.jpg" class="minimized" alt="Мои знаменитые родственники">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-05.jpg" class="minimized" alt="Популяризация творчества вятских инвалидов по зрению">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-06.jpg" class="minimized" alt="За социальное партнерство">
+                                </td>
+                            </tr>
 
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-05.jpg" class="minimized" alt="Популяризация творчества вятских инвалидов по зрению">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-06.jpg" class="minimized" alt="За социальное партнерство">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-07.jpg" class="minimized" alt="Библионочь 2012 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-08.jpg" class="minimized" alt="За сотрудничество 2014 г.">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-07.jpg" class="minimized" alt="Библионочь 2012 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-08.jpg" class="minimized" alt="За сотрудничество 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-09.jpg" class="minimized" alt="День белого цветка 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-10.jpg" class="minimized" alt="Сказочные игры на Вятке 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-11.jpg" class="minimized" alt="В гармонии с природой">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-12.jpg" class="minimized" alt="Благодарность Тарасовой Г.Н. 2014 г.">
+                                </td>
+                            </tr>
 
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-09.jpg" class="minimized" alt="День белого цветка 2014 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-10.jpg" class="minimized" alt="Сказочные игры на Вятке 2014 г.">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-11.jpg" class="minimized" alt="В гармонии с природой">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-12.jpg" class="minimized" alt="Благодарность Тарасовой Г.Н. 2014 г.">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-13.jpg" class="minimized" alt="Библионочь 2012 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-14.jpg" class="minimized" alt="За сотрудничество 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-15.jpg" class="minimized" alt="День белого цветка 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-16.jpg" class="minimized" alt="Сказочные игры на Вятке 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-17.jpg" class="minimized" alt="В гармонии с природой">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-18.jpg" class="minimized" alt="Благодарность Тарасовой Г.Н. 2014 г.">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-19.jpg" class="minimized" alt="Библионочь 2012 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-20.jpg" class="minimized" alt="За сотрудничество 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-21.jpg" class="minimized" alt="День белого цветка 2014 г.">
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/diploms/diplom-22.jpg" class="minimized" alt="Сказочные игры на Вятке 2014 г.">
+                                </td>
+                            </tr>
+                        </table>
 
 
 
@@ -78,83 +143,86 @@
 
                         <h2>Почётными грамотами министерства культуры и российского профсоюза работников культуры награждены</h2>
 
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/1-isupova-nn.jpg" class="minimized" alt="Исупова Н.Н."><br>
-                            <span>Исупова Н.Н.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/2-nechaeva-ei.jpg" class="minimized" alt="Нечаева Е.И."><br>
-                            <span>Нечаева Е.И.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/3-chulkina-ln.jpg" class="minimized" alt="Чулкина Л.Н."><br>
-                            <span>Чулкина Л.Н.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/4-shiyan-gi.jpg" class="minimized" alt="Шиян Г.И."><br>
-                            <span>Шиян Г.И.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/5-mihaleva-lm.jpg" class="minimized" alt="Михалева Л.М."><br>
-                            <span>Михалева Л.М.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/6-adekova-vn.jpg" class="minimized" alt="Адекова В.Н."><br>
-                            <span>Адекова В.Н.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/7-sitnikova-gs.jpg" class="minimized" alt="Ситникова Г.С."><br>
-                            <span>Ситникова Г.С.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/8-tarasova-gn.jpg" class="minimized" alt="Тарасова Г.Н."><br>
-                            <span>Тарасова Г.Н.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/respect/9-adekova-ti.jpg" class="minimized" alt="Адекова Т.И."><br>
-                            <span>Адекова Т.И.</span>
-                        </div>
+                        <table style="width: 100%; margin: 0 auto; text-align: center" class="table-offdocs">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/1-isupova-nn.jpg" class="minimized" alt="Исупова Н.Н."><br>
+                                    <span>Исупова Н.Н.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/2-nechaeva-ei.jpg" class="minimized" alt="Нечаева Е.И."><br>
+                                    <span>Нечаева Е.И.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/3-chulkina-ln.jpg" class="minimized" alt="Чулкина Л.Н."><br>
+                                    <span>Чулкина Л.Н.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/4-shiyan-gi.jpg" class="minimized" alt="Шиян Г.И."><br>
+                                    <span>Шиян Г.И.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/5-mihaleva-lm.jpg" class="minimized" alt="Михалева Л.М."><br>
+                                    <span>Михалева Л.М.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/6-adekova-vn.jpg" class="minimized" alt="Адекова В.Н."><br>
+                                    <span>Адекова В.Н.</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/7-sitnikova-gs.jpg" class="minimized" alt="Ситникова Г.С."><br>
+                                    <span>Ситникова Г.С.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/8-tarasova-gn.jpg" class="minimized" alt="Тарасова Г.Н."><br>
+                                    <span>Тарасова Г.Н.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/respect/9-adekova-ti.jpg" class="minimized" alt="Адекова Т.И."><br>
+                                    <span>Адекова Т.И.</span>
+                                </td>
+                            </tr>
+                        </table>
 
 
 
-                        <h2>Благодарностями министрества культуры РФ награждены</h2>
+                        <h2>Благодарностями министерства культуры РФ награждены</h2>
 
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/blago/1-popova-aa.jpg" class="minimized" alt="Попова А.А."><br>
-                            <span>Попова А.А.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/blago/2-pushkareva-va.jpg" class="minimized" alt="Пушкарева В.А."><br>
-                            <span>Пушкарева В.А.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/blago/3-shahova-ek.jpg" class="minimized" alt="Шахова Е.К."><br>
-                            <span>Шахова Е.К.</span>
-                        </div>
+                        <table style="width: 100%; margin: 0 auto; text-align: center" class="table-offdocs">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/blago/1-popova-aa.jpg" class="minimized" alt="Попова А.А."><br>
+                                    <span>Попова А.А.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/blago/2-pushkareva-va.jpg" class="minimized" alt="Пушкарева В.А."><br>
+                                    <span>Пушкарева В.А.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/blago/3-shahova-ek.jpg" class="minimized" alt="Шахова Е.К."><br>
+                                    <span>Шахова Е.К.</span>
+                                </td>
+                            </tr>
+                        </table>
 
 
 
                         <h2>Награды правительства Кировской области</h2>
 
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/blagoko/1-richkova-gs.jpg" class="minimized" alt="Рычкова Г.С."><br>
-                            <span>Рычкова Г.С.</span>
-                        </div>
-
-                        <div class="about-success-image-wrapper">
-                            <img src="<?php echo SITEURL;?>images/pages/about/success/blagoko/2-tarasova-gn.jpg" class="minimized" alt="Тарасова Г.Н."><br>
-                            <span>Тарасова Г.Н.</span>
-                        </div>
+                        <table style="width: 100%; margin: 0 auto; text-align: center" class="table-offdocs">
+                            <tr>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/blagoko/1-richkova-gs.jpg" class="minimized" alt="Рычкова Г.С."><br>
+                                    <span>Рычкова Г.С.</span>
+                                </td>
+                                <td>
+                                    <img src="<?php echo SITEURL;?>images/pages/about/success/blagoko/2-tarasova-gn.jpg" class="minimized" alt="Тарасова Г.Н."><br>
+                                    <span>Тарасова Г.Н.</span>
+                                </td>
+                            </tr>
+                        </table>
 
                     </div>
 

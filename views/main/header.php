@@ -36,7 +36,7 @@
         <div class="logo-content">
             <div class="logo-content-in">
                 <div class="logo-content-in-text ">
-                    <h1 class="logo-text">МБУК<br> Белохолуницкая центральная<br> библиотека</h1>
+                    <h1 class="logo-text"><span class="logo-text-1">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ КУЛЬТУРЫ</span><br> <span class="logo-text-2">&laquo;Белохолуницкая центральная</span><br> <span class="logo-text-3">библиотека&raquo;</span></h1>
                 </div>
             </div>
         </div>

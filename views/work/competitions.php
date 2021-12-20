@@ -36,8 +36,42 @@
                     <div class="work-competitions">
 
                         <h2>Конкурсы</h2>
+						
+
 
                         <table class="table-two-cols">
+						
+							<tr>
+                                <td>
+                                    <div class="table-content-title">«Память сквозь поколения: дороги фронтовые. Наша история»</div>
+                                    <div class="table-content-desc">Межрегиональный конкурс поисково-исследовательских работ</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/98Bn9nmZhXxVqA" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/98Bn9nmZhXxVqA" class="table-content-link" target="_blank">Положение</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+						
+						    <tr>
+                                <td>
+                                    <div class="table-content-title">«О земле мне близкой и любимой...»</div>
+                                    <div class="table-content-desc">Районный конкурс чтецов произведений вятских поэтов, посвященный 85-летию образования Кировской области</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/sqkVivF_URUaqQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/sqkVivF_URUaqQ" class="table-content-link" target="_blank">Положение</a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
 
                             <tr>
                                 <td>

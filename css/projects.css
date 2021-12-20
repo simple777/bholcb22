@@ -138,6 +138,89 @@
 	padding: 5px 1%;
 }
 
+.ci-2021 
+{
+	padding: 0 2em;
+}
+
+.holder{
+	position:relative;
+}
+.block{
+	position:absolute;
+	z-index: 3;
+	left:0;
+	bottom:0;
+	right:0;
+	top:0;
+	background:rgba(255,255,255, 0.7);
+	padding:5px;
+	display:none;
+}
+.holder:hover .block{
+	display:block;
+}
+
+.holder:hover h3
+{
+ visibility: hidden;
+}
+
+.post-tag2{
+	margin:-10px 0 35px;
+}
+.post-tag2 a{
+	background-color: #FFCC33;
+	border-radius: 0 4px 4px 0;
+	color: #000;
+	text-decoration: none;
+	display: inline-block;
+	float: left;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 0 0 10px 30px;
+	padding: 8px 8px 9px;
+	position: relative;
+	text-transform: uppercase;
+	transition: 0.2s linear;
+	z-index: 3;
+}
+.post-tag2 a:before{
+	transition: 0.2s linear;
+	border-top:17px solid transparent;
+	border-bottom:20px solid transparent;
+	border-right:19px solid #FFCC33;
+	content:"";
+	height:0;
+	position:absolute;
+	top:0;
+	left:-19px;
+	width:0;
+}
+.post-tag2 a:after{
+	background-color:#333;
+	border-radius:50%;
+	content:"";
+	height:5px;
+	position:absolute;
+	top:15px;
+	left:-5px;
+	width:5px
+}
+.post-tag2 a:hover{background:#444;color:#FFF;text-decoration:none;}
+.post-tag2 a:hover:before{border-right-color:#444}
+.post-tag2 a:hover:after{
+	transition: 0.2s linear;
+	background-color:#fff;
+	border-radius:50%;
+	content:"";
+	height:5px;
+	position:absolute;
+	top:15px;
+	left:-3px;
+	width:5px;}
+}
+
  
  /* Projects: mclass css */
 /**********************************************************************************************************************/

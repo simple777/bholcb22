@@ -1,4 +1,37 @@
-/* Table - Two cols */
+/* Table */
+/**********************************************************************************************************************/
+
+table th
+{
+	color: #2f73e3;
+	border-bottom: 1px dashed silver;
+	padding: 12px 17px;
+}
+
+table td
+{
+	color: #333;
+	border-bottom: 1px dashed silver;
+	border-right:1px dashed silver;
+	padding: 23px 27px;
+}
+
+table tr:last-child td
+{
+	border-bottom: none;
+}
+
+table td:last-child
+{
+	border-right: none;
+}
+
+table tr:hover td
+{
+	background: rgba (25,98,64, .5);
+}
+
+/* Table - 2 col */
 /**********************************************************************************************************************/
 
 .table-two-cols
@@ -10,40 +43,35 @@
 	width: 100%;
 }
 
-.table-two-cols th
+/* Table - 4 col */
+/**********************************************************************************************************************/
+
+.table-4-cols
 {
-	color: #2f73e3;
-	border-bottom: 1px dashed silver;
-	padding: 12px 17px;
+	font-size: 1em;
+	text-align: left;
+	border-collapse: collapse;
+	outline: 1px dashed silver;
+	width: 100%;
 }
 
-.table-two-cols td
-{
-	color: #333;
-	border-bottom: 1px dashed silver;
-	border-right:1px dashed silver;
-	padding: 23px 27px;
+table .table-4-cols td {
+
+    padding: 15px 27px;
 }
 
-.table-two-cols tr:last-child td
+.td-width5
 {
-	border-bottom: none;
+	width: 15%;
 }
 
-.table-two-cols td:last-child
+.td-min-width145px
 {
-	border-right: none;
-	width: 25%;
+	min-width: 145px;
 }
-
-.table-two-cols tr:hover td
-{
-	background: rgba (25,98,64, .5);
-}
-
-
 
 /* Table content */
+/**********************************************************************************************************************/
 
 .table-content-title
 {

@@ -29,6 +29,11 @@
 	background-size: cover;
 }
 
+.theme1 
+{
+	background: url(../images/pages/readers-services-bg.jpg) no-repeat center center fixed;
+}
+
 .event
 {
 	position: relative;

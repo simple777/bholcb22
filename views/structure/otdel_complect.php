@@ -38,7 +38,7 @@
                             <div class="department-common-info-content-in">
                                 <div class="department-common-info-content-in-text">
 
-                                    <h2>Отдел комлпектования</h2>
+                                    <h2>Отдел комплектования</h2>
 
 
                                         <div class="department-about">

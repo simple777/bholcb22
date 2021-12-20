@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="<?php echo SITEURL;?>css/readers.css">
 	<link rel="stylesheet" href="<?php echo SITEURL;?>css/projects-victory.css?v01">
     <link rel="stylesheet" href="<?php echo SITEURL;?>css/tabs.css">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/nok.css">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 </head>
@@ -47,22 +48,22 @@
 						<div class="project-victory-col2" style="width:25%; padding:0 !important;">
 						
 							<div class="about-success-image-wrapper" style="margin-top: 30px; text-align: center">
-								<a href="https://disk.yandex.ru/i/x_qLi2TPJZu1qw" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/protokol-2020.jpg" width="200px" alt="Протокол НОК 2020г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
+								<a href="<?php echo SITEURL;?>media/about/nok/protokol-2020-4.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/protokol-2020.jpg" width="200px" alt="Протокол НОК 2020г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
 								<span class="nok-inner-text">Протокол независимой оценки качества 2020г.<br></span>
 							</div>
 							
 							<div class="about-success-image-wrapper" style="margin-top: 30px; text-align: center">
-								<a href="https://disk.yandex.ru/i/rTb0kZfrkvwqZw" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/prikaz-2021.jpg" width="200px" alt="Приказ НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
+								<a href="<?php echo SITEURL;?>media/about/nok/prikaz-2020.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/prikaz-2021.jpg" width="200px" alt="Приказ НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
 								<span class="nok-inner-text">Приказ об утверждении планов по независимой оценке качества<br></span>
 							</div>
 							
 							<div class="about-success-image-wrapper" style="margin-top: 30px; text-align: center">
-								<a href="https://disk.yandex.ru/i/FEVJB9alUkf6rA" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/plan-2021.jpg" width="200px" alt="План НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
+								<a href="<?php echo SITEURL;?>media/about/nok/plan-2020.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/plan-2021.jpg" width="200px" alt="План НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
 								<span class="nok-inner-text">План мероприятий по улучшению качества<br></span>
 							</div>
 							
 							<div class="about-success-image-wrapper" style="margin-top: 30px; text-align: center">
-								<a href="https://disk.yandex.ru/i/IivlX1uA1lms8g" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/plan-us-ned-2021.jpg" width="200px" alt="План устранения недостатков НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
+								<a href="<?php echo SITEURL;?>media/about/nok/plan-ned-2020.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/nok/plan-us-ned-2021.jpg" width="200px" alt="План устранения недостатков НОК 2021г." style="box-shadow: 2px 2px 5px 0px rgb(50 50 50);"></a><br>
 								<span class="nok-inner-text">План по устранению недостатков<br></span>
 							</div>
 						

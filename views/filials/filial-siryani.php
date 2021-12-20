@@ -42,10 +42,10 @@
 
                                     <div class="filial-common-info-time">
                                         <img src="<? echo SITEURL; ?>images/pages/filials/ico/clock.png" width="25px" height="25px">
-                                        Режим работы: Вт.-Пт., Вс. с 12:30 до 18:30, без обеда
+                                        Режим работы: Вт.-Пт., Вс. с 12:00 до 18:00, без обеда
                                     </div>
 
-                                    <div class="filial-common-info-boss">Заведующая: Нина Николаевна Исупова</div>
+                                    <div class="filial-common-info-boss">Заведующая: Анфилатова Светлана Валерьевна</div>
 
                                     <div class="filial-common-info-adress">613213 с. Сырьяны, ул. Советская, д. 39</div>
 

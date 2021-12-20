@@ -3,8 +3,41 @@
 /* News: main page 'news_limit_main_page.php' */
 /**********************************************************************************************************************/
 
+/* Banner pro-culture 2021-07-19 */
+
+.news-pro-culture
+{
+	/*width: 85%;*/
+	/*float: left;*/
+}
+
+/* Banners block 2021-07-19 */
+.main-page-banners
+{
+	width: 100%;
+	float: left;
+	padding-left: 35px;
+}
+
+/* Menu aside*/
+
+.main-page-side-menu
+{
+	width: 20%;
+	float: right;
+}
+
+ul.main-page-side-menu-ul
+{
+	list-style: none;
+}
+
+/* News */
+
 .news-main-page
 {
+	display: inline-block;
+	width: 80%;
 	position: relative; /* for preloader, which have absolute position */
 }
 

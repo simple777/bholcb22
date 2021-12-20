@@ -42,8 +42,7 @@
 
                                     <div class="filial-common-info-time">
                                         <img src="<? echo SITEURL; ?>images/pages/filials/ico/clock.png" width="25px" height="25px">
-                                        Режим работы: Вт.-Пт. с 13:00 до 19:00, без обеда<br>
-                                        Сб. с 12:00 до 18:00
+                                        Режим работы: Вт.-Пт. с 12:00 до 18:00, без обеда
                                     </div>
 
                                     <div class="filial-common-info-phone">

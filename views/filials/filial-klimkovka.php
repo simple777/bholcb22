@@ -42,7 +42,7 @@
 
                                     <div class="filial-common-info-time">
                                         <img src="<? echo SITEURL; ?>images/pages/filials/ico/clock.png" width="25px" height="25px">
-                                        Режим работы: Пн.-Cб. с 11:00 до 19:00, обед с 15:00 до 16:00
+                                        Режим работы: Пн.-Пт. с 10:00 до 18:00, обед с 15:00 до 16:00
                                     </div>
 
                                     <div class="filial-common-info-phone">
@@ -50,7 +50,7 @@
                                         Тел. (83364) 4-71-66
                                     </div>
 
-                                    <div class="filial-common-info-boss">Заведующая: Татьяна Валентиновна Мякишева</div>
+                                    <div class="filial-common-info-boss">Заведующая: Пантелеева Наталья Вячеславовна</div>
 
                                     <div class="filial-common-info-adress">613212 п. Климковка, ул. Канавная, д. 1</div>
 
@@ -59,8 +59,8 @@
                                     <div class="filial-workers">
 
                                         <div class="filial-workers-item">
-                                            <img src="<? echo SITEURL; ?>images/pages/filials/filial-klimkovka/myakisheva-tv.png" width="125px" height="125px">
-                                            <div class="filial-workers-item-fio rounded-corners-5px">Мякишева Т.В.</div>
+                                            <img src="<? echo SITEURL; ?>images/pages/filials/filial-klimkovka/panteleeva-nv.png" width="125px" height="125px">
+                                            <div class="filial-workers-item-fio rounded-corners-5px">Пантелеева Н.В.</div>
                                         </div>
 
                                     </div>

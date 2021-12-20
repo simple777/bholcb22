@@ -110,6 +110,36 @@
 	width: 100%;
 	margin: 0 auto;
 	padding: 5px 0;
+	
+}
+
+.readers-clubs-wrapper::before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: .4;
+	z-index: -1;
+	background: url(../images/pages/page-bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.readers-clubs
+{
+    margin: 0 auto;
+    position: relative;
+	height: auto;
+	text-align: center;
+	margin-bottom: 340px;
+	
+	opacity: .95;
+	padding: 0 10%;
 }
 
 .readers-clubs .content-line-wrapper-2
@@ -117,12 +147,25 @@
 	height: 480px;
 }
 
+.readers-clubs .content-line-block-2
+{
+	background: #a5a89f38;
+	min-height: 250px;
+	outline: 1px solid white;
+}
+
+
 .readers-clubs h2
 {
 	text-transform: uppercase;
 	margin: 1em auto;
 	text-align: center;
 	transition: .3s;
+}
+
+.readers-clubs h3 
+{
+
 }
 
 .readers-clubs .content-line-block-text

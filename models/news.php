@@ -136,22 +136,11 @@ function news_Insert ($mysqli, $title, $imgprev_small, $imgprev_medium, $news_da
 
     $stmt = $mysqli->prepare("INSERT INTO lib777_news (title, imgprev_small, imgprev_medium, news_date, author, description, text, link, category, tags, images_count) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");
     $stmt->bind_param("sssssssssss", $title, $imgprev_small, $imgprev_medium, $news_date, $author, $description, $text, $link, $category, $tags, $images_count);
-		
-	/*
-	if ($stmt->execute()) { 
-	   // it worked
-	} else {
-	   // it didn't
-	}
-	*/
 
-	if(!$stmt->execute()) { echo $stmt->error; } 
-	
-	else 
-	
-	{
-		$stmt->close();
-		$mysqli->close();
-		return true;
-	}
+    $stmt->execute();
+
+    $stmt->close();
+    $mysqli->close();
+
+    return true;
 }
