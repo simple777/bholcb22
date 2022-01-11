@@ -36,7 +36,11 @@
         <div class="logo-content">
             <div class="logo-content-in">
                 <div class="logo-content-in-text ">
-                    <h1 class="logo-text"><span class="logo-text-1">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ КУЛЬТУРЫ</span><br> <span class="logo-text-2">&laquo;Белохолуницкая центральная</span><br> <span class="logo-text-3">библиотека&raquo;</span></h1>
+                    <h1 class="logo-text">
+                        <span class="logo-text-1">МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ КУЛЬТУРЫ</span><br>
+                        <span class="logo-text-2">&laquo;Белохолуницкая центральная библиотека&raquo;</span><br>
+                        <span class="logo-text-4">МБУК &laquo;Белохолуницкая ЦБ&raquo;</span>
+                    </h1>
                 </div>
             </div>
         </div>
@@ -54,11 +58,22 @@
 
                 <div class="slides fader" id="Fader">
 
+                    <!--
                     <div class="slide">
-                        <div class="slide-image-wrapper "><a href="<?php echo SITEURL;?>afisha/recommendations-for-children.html" class="slide-href" target="_blank"><img src="<?php echo SITEURL;?>media/afisha/recommendations-for-children.jpg"></a></div>
+                        <div class="slide-image-wrapper "><a href="<?php //echo SITEURL;?>afisha/recommendations-for-children.html" class="slide-href" target="_blank"><img src="<?php //echo SITEURL;?>media/afisha/recommendations-for-children.jpg"></a></div>
                         <div class="slide-text-wrapper">
                             <h2 class="slide-header">Детская библиотека рекомендует</h2>
                             <p class="slide-description">мы подобрали для Вас хорошие книжки в тематиках "Для подростков и их родителей" и "Кошке посвящается"</p>
+                            <div class="slides-navigation"></div>
+                        </div>
+                    </div>
+                    -->
+
+                    <div class="slide">
+                        <div class="slide-image-wrapper "><a href="<?php echo SITEURL;?>afisha/telefon-doveriya.html" class="slide-href" target="_blank"><img src="<?php echo SITEURL;?>media/afisha/2021-12-22-tel-dover.jpg"></a></div>
+                        <div class="slide-text-wrapper">
+                            <h2 class="slide-header">Телефон доверия</h2>
+                            <p class="slide-description">8-800-2000-122 для детей, подростков и их родителей. Бесплатно, безопасно и анонимно</p>
                             <div class="slides-navigation"></div>
                         </div>
                     </div>

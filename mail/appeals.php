@@ -11,7 +11,7 @@
 
 // Основные настройки:
 $recipients = ['B-Hol-CB@yandex.ru']; // Получатели писем
-$subject = 'Продление онлайн с сайта '.$_SERVER['SERVER_NAME']; // Тема письма
+$subject = 'Обращение гражданина с сайта '.$_SERVER['SERVER_NAME']; // Тема письма
 
 $before_table = '<h2 style="color:#222">'. $subject .'</h2><p style="color:#222">Данные клиента:</p>'; // HTML-содержимое до таблицы
 $after_table = '<i style="color:#bbb;font-size:12px">Сообщение отправлено с сайта <b>'.$_SERVER['SERVER_NAME'].'</b></i>'; // HTML-содержимое после таблицы

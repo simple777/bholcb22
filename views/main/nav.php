@@ -27,7 +27,7 @@
                 <!-- <li><a href="#">Методическая копилка</a></li> -->
             </ul>
         </li>
-        <li class="has-drop"">
+        <li class="has-drop">
             <a href="#">
                 <span class="menu-name">О библиотеке</span>
                 <span class="menu-arrow"></span>
@@ -40,9 +40,18 @@
                 <li><a href="<?php echo SITEURL; ?>about/offdocs.html">Официальные документы</a></li>
                 <li><a href="<?php echo SITEURL; ?>about/info-action.html">Информация о деятельности организации</a></li>
                 <li><a href="<?php echo SITEURL; ?>about/info-other.html">Иная информация</a></li>
-                <!--<li><a href="<?php //echo SITEURL; ?>about/partners.html">Партнеры</a></li>-->
-                <!-- <li><a href="#">На страницах прессы</a></li> -->
             </ul>
+        </li>
+        <li  class="has-drop">
+            <a href="#">
+                <span class="menu-name">Обращения граждан</span>
+                <span class="menu-arrow"></span>
+            </a>
+                <ul class="menu-drop">
+                    <li><a href="#" data-hystmodal="#modal-appeals-form">Форма для обращения</a></li>
+                    <li><a href="<?php echo SITEURL; ?>appeals/appeals-result.html">Рассмотрение обращений</a></li>
+                </ul>
+            </a>
         </li>
 		<li>
             <a href="<?php echo SITEURL; ?>about/contacts.html">

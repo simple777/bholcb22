@@ -1,6 +1,16 @@
 /* Form styles */
 /**********************************************************************************************************************/
 
+.forms-wrapper textarea
+{
+    overflow: auto;
+    resize: none;
+    background: #f6f6f6;
+    border: 1px solid #cecece;
+    border-radius: 8px 0 0 0;
+    padding: 8px 0 8px 10px;
+}
+
 .forms-wrapper
 {
     padding: 30px;
@@ -49,8 +59,10 @@
     width: 100%;
     padding:10px;
     border-radius:10px;
-    margin-top: 10px;
+    margin: 10px 0;
 }
+
+
 
 
 /*Preloading images*/

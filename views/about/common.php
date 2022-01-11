@@ -36,9 +36,15 @@
 
                         <h2 style="color: #feb52c">Общая информация</h2>
 
-                        <img src="<?php echo SITEURL;?>images/pages/about/history/ourdays/ourdays.jpg" class="lazy" style="width: 55%;float: right;border: 3px solid #feb52c; box-shadow: 0 0 10px rgba(0,0,0,0.5);margin-left: 40px;opacity: .9">
+                        <img src="<?php echo SITEURL;?>images/pages/about/history/ourdays/ourdays.jpg" class="lazy" style="width: 45%;float: right;border: 3px solid #feb52c; box-shadow: 0 0 10px rgba(0,0,0,0.5);margin-left: 40px;opacity: .9">
 
-                        <p><strong>Директор:</strong> Худякова Людмила Анатольевна</p>
+                        <p style="text-align: left; line-height: 30px; padding-bottom: 10px">
+                            <strong style='background: #f1f5f9;'>
+                                МУНИЦИПАЛЬНОЕ БЮДЖЕТНОЕ УЧРЕЖДЕНИЕ КУЛЬТУРЫ <br>
+                                «Белохолуницкая центральная библиотека»</strong><br>
+                            <span style="color: #1526a1 !important; font-size: .9em">(МБУК &laquo;Белохолуницкая ЦБ&raquo;)</span>
+                        </p>
+                        <p style="text-align: left;"><strong>Директор:</strong> Худякова Людмила Анатольевна</p>
 
 						<p><strong>Режим работы:</strong></p> 
 									<p>&nbsp;&nbsp;&nbsp;&nbsp;понедельник – пятница с 8-00 до 18-00</p>

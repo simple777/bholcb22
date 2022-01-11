@@ -147,6 +147,7 @@
 
                     <div class="about-offdocs-u-wrapper">
                         <div class="about-offdocs-u">
+                            <p><span style='text-decoration: underline; color: #686258'>Управление культуры Белохолуницкого района</span></p>
                             <p><span>Адрес</span>: 613200, Белохолуницкий р-н, г. Белая Холуница, ул. Глазырина, д. 6</p>
                             <p><span>Телефон</span>: (83364) 4-19-90, 4-19-03</p>
                             <p><span>Электронная почта</span>: kultura_bh@mail.ru</p>

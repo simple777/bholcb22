@@ -6,8 +6,8 @@
 	<meta name="keywords" content="белохолуницкая, библиотека, официальный сайт, библиотека, белая холуница">
 	<title>МБУК Белохолуницкая центральная библиотека официальный сайт</title>
     <?php include_once  SITEROOTDIR.'views/main/head_libs.php'; ?>
-    <link rel="stylesheet" href="<?php echo SITEURL;?>css/news.css?v22">
-    <link rel="stylesheet" href="<?php echo SITEURL;?>css/form.css">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/news.css?v24">
+    <link rel="stylesheet" href="<?php echo SITEURL;?>css/form.css?v02">
     <?php include_once  SITEROOTDIR.'views/main/head_font.php'; ?>
     <?php include_once  SITEROOTDIR.'views/main/head_add_libs.php'; ?>
 	
@@ -20,10 +20,6 @@
 		<?php include_once  __DIR__.'/main/header.php'; ?>
 
         <?php include_once  __DIR__.'/main/nav.php'; ?>
-
-        <?php include_once  __DIR__.'/modal/modal-vspravka.php'; ?>
-
-        <?php include_once  __DIR__.'/modal/modal-renew-book.php'; ?>
 
 		<div class="content-wrapper clearfix">
 
@@ -99,22 +95,14 @@
 
 
 <!-- Scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>></script>
-<script src="<?php echo SITEURL;?>js/slider.js?v49"></script>
+<script src="<?php echo SITEURL;?>js/jquery-3.4.1.min.js"></script>
+<script src="<?php echo SITEURL;?>js/slider.js?v51"></script>
 <script src="<?php echo SITEURL;?>js/main.js?v01"></script>
 <script src="<?php echo SITEURL;?>js/goodvision.js?v10"></script>
 <script src="<?php echo SITEURL;?>js/hystmodal.min.js"></script>
-<script src="<?php echo SITEURL;?>js/jquery.sendmail.js?v18"></script>
+<script src="<?php echo SITEURL;?>js/jquery.sendmail.js?v19"></script>
 
-
-    <script>
-        const myModal = new HystModal({
-        linkAttributeName: "data-hystmodal",
-        // настройки (не обязательно), см. API
-        });
-    </script>
-
-    <script>
+    <script type="text/javascript">
         $('form.feedback').sendMail({
         // Параметры...
         });
@@ -126,11 +114,24 @@
         EIPSK.Widgets.Inline('bbnpchvybb84nf2n', 'eipsk-eventslist');
     </script>
 
-<!-- Image preload -->
+    <script src="<?php echo SITEURL;?>js/maskinput.js"</script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#tel1").mask("+7 (999) 999-9999");
+        });
+    </script>
+
+    <!-- modal -->
+
+    <?php include_once  __DIR__.'/modal/modal-vspravka.php'; ?>
+
+    <?php include_once  __DIR__.'/modal/modal-renew-book.php'; ?>
+
+    <?php include_once  __DIR__.'/modal/modal-appeals-form.php'; ?>
+
 <div class="img_preload"></div>
 
 </body>
 
 </html>
-
-<!-- -->

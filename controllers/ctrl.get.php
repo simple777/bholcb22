@@ -639,6 +639,30 @@ if (isset($_GET['route']))
                 break;
             }
 
+            /* Route = 'appeals' */
+            /**********************************************************************************************************/
+
+            case 'appeals':
+            {
+                if (isset($_GET['item']))
+                {
+                    switch ($_GET['item'])
+                    {
+                        case 'appeals-result.html': {
+                            include_once SITEROOTDIR.'views/appeals/appeals-result.php';
+                            break;
+                        }
+                    }
+
+                }
+                else
+                {
+                    header('location: /');
+                    exit;
+                }
+                break;
+            }
+
             /* Route = 'structure' */
             /**********************************************************************************************************/
 
@@ -712,6 +736,11 @@ if (isset($_GET['route']))
 
                         case 'recommendations-for-children.html': {
                             include_once SITEROOTDIR.'views/afisha/recommendations-for-children.php';
+                            break;
+                        }                       
+						
+						case 'telefon-doveriya.html': {
+                            include_once SITEROOTDIR.'views/afisha/telefon-doveriya.php';
                             break;
                         }
 

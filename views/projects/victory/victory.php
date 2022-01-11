@@ -91,12 +91,16 @@
 							<iframe width="800" height="450" src="https://www.youtube.com/embed/5LjXGG8F3tQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>	
 						
-						<h3>[Федосеевская библиотека] Его имя носит наша библиотека</h3>
+						<h3>Именные библиотеки</h3>
 						
 						<div class="wow fadeInRightBig">
 							<iframe width="800" height="450" src="https://www.youtube.com/embed/r-RL55iIZWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						</div>	
-						
+						</div>
+
+                        <div class="wow fadeInLeftBig">
+                            <iframe width="800" height="450" src="https://www.youtube.com/embed/A3meznMpxpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+
 						<div class="project-victory-block-wrapper wow fadeInLeftBig">
 							<div class="project-victory-block">
 								<img width="35px" height="35px" src="<?php echo SITEURL; ?>images/pages/projects/wow/book-logo.png">
