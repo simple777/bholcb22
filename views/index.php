@@ -93,21 +93,28 @@
 
 	</div>
 
+    <!-- modal -->
 
-<!-- Scripts -->
-<script src="<?php echo SITEURL;?>js/jquery-3.4.1.min.js"></script>
-<script src="<?php echo SITEURL;?>js/slider.js?v51"></script>
-<script src="<?php echo SITEURL;?>js/main.js?v01"></script>
-<script src="<?php echo SITEURL;?>js/goodvision.js?v10"></script>
-<script src="<?php echo SITEURL;?>js/hystmodal.min.js"></script>
-<script src="<?php echo SITEURL;?>js/jquery.sendmail.js?v19"></script>
+    <?php include_once  __DIR__.'/modal/modal-vspravka.php'; ?>
+
+    <?php include_once  __DIR__.'/modal/modal-renew-book.php'; ?>
+
+
+
+    <!-- Scripts -->
+    <script src="<?php echo SITEURL;?>js/jquery-3.4.1.min.js"></script>
+    <script src="<?php echo SITEURL;?>js/slider.js?v51"></script>
+    <script src="<?php echo SITEURL;?>js/main.js?v01"></script>
+    <script src="<?php echo SITEURL;?>js/goodvision.js?v10"></script>
+    <script src="<?php echo SITEURL;?>js/hystmodal.min.js"></script>
+    <script src="<?php echo SITEURL;?>js/jquery.sendmail.js?v19"></script>
 
     <script type="text/javascript">
         $('form.feedback').sendMail({
         // Параметры...
         });
-
     </script>
+
     <!-- pro.culture banner -->
     <script type="text/javascript" src="https://pro.culture.ru/scripts/widgets/api.js?6450"></script>
     <script type="text/javascript">
@@ -122,13 +129,15 @@
         });
     </script>
 
-    <!-- modal -->
-
-    <?php include_once  __DIR__.'/modal/modal-vspravka.php'; ?>
-
-    <?php include_once  __DIR__.'/modal/modal-renew-book.php'; ?>
-
     <?php include_once  __DIR__.'/modal/modal-appeals-form.php'; ?>
+
+    <script type="text/javascript">
+        const myModal = new HystModal({
+            linkAttributeName: "data-hystmodal",
+            // настройки (не обязательно), см. API
+        });
+    </script>
+
 
 <div class="img_preload"></div>
 

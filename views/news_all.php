@@ -37,6 +37,7 @@
 
                 <section class="news-filter-wrapper">
                     <div class="news-filter-year">
+                        <span class="news-filter-year-item">2022</span>
                         <span class="news-filter-year-item">2021</span>
                         <span class="news-filter-year-item">2020</span>
                         <span class="news-filter-year-item">2019</span>

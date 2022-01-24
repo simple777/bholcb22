@@ -3,6 +3,14 @@
         <div class="hystmodal__window" role="dialog" aria-modal="true">
             <button data-hystclose class="hystmodal__close">Закрыть</button>
 
+            <script type="text/javascript">
+                $(document).ready(function(){
+                    $(function() {
+                        $("#tel1").mask("+7 (999) 999-9999");
+                    });
+                }); //jQuery
+            </script>
+
             <div class="forms-wrapper">
                     <h1>Форма для обращения</h1>
                     <!-- Ваш HTML код модального окна -->
@@ -21,13 +29,6 @@
                                     <label for="text">ФИО</label>
                                             <input type="text" name="ФИО" required placeholder="Фамилия Имя Отчество">
                                     <label for="tel">Контактный телефон</label>
-
-                                        <script type="text/javascript">
-                                            $(function() {
-                                                $("#tel1").mask("+7 (999) 999-9999");
-                                            });
-                                        </script>
-
                                         <input type="tel" name="Телефон" id="tel1" required placeholder="+7 (___) ___-____">
                                      <label for="email">E-mail</label>
                                         <input type="email" name="E-mail" required placeholder="myname@yandex.ru">
@@ -43,3 +44,4 @@
         </div>
     </div>
 </div>
+
