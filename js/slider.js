@@ -147,9 +147,9 @@ $(document).ready(function(){
                     //С какого слайда начать показ
 
                     var $pagers = $pagerList.find('.slides-fader-controls-page');
-                    $slides.eq(0).css('opacity', 1); // 0 - с первого, 1 - со второго и тд.
-                    $pagers.eq(0).addClass('active'); // 0 - с первого, 1 - со второго и тд.
-                    activeSlide = 0; // 0 - с первого, 1 - со второго и тд.
+                    $slides.eq(1).css('opacity', 1); // 0 - с первого, 1 - со второго и тд.
+                    $pagers.eq(1).addClass('active'); // 0 - с первого, 1 - со второго и тд.
+                    activeSlide = 1; // 0 - с первого, 1 - со второго и тд.
 
 
                     if ( (localStorage.getItem('good-vision') != null) && (localStorage.getItem('good-vision') == '0') )

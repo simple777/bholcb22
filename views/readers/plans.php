@@ -38,21 +38,27 @@
                 <div class="event">
 
 					<h2>Планы мероприятий</h2>
-					
-					<div class="d13 wow fadeInLeftBig"><h3>ДЕКАБРЬ 2021</h3></div>
-					
-						<div class="event-item-1 wow fadeInRightBig" style="width: 100%;">
-							
-							<iframe width="100%" height="2150px" frameborder="0" style="margin-top:-25px" src="https://docs.google.com/document/d/e/2PACX-1vRgopTnxhH-bP1Uc7dvS9mnuxZyxJt2B4Z1z35EM5G1TaoC-kf41DEvBlt7a6hyUxVTgYE637uBTtG2/pub?embedded=true"></iframe>
-							<!--<div style=""><a href="https://disk.yandex.ru/i/M9_50MSpuReJCA" target="_blank">Скачать</a></div> -->
-				
-						</div>
+
+                    <div class="d13 wow fadeInLeftBig"><h3>ФЕВРАЛЬ 2022</h3></div>
+
+                        <div class="event-item-1 wow fadeInRightBig" style="width: 100%; margon-top: -54px">
+                            <iframe width="100%" height="1750px" frameborder="0" style="margin-top:-25px" src="https://docs.google.com/document/d/e/2PACX-1vSzTNxw9ye9Se0xgtlvTuN3P1uJsikYYaY9YyObhhn1ME07TaJEeqoKfUABeDEqS7GIpKihyt7xEmEt/pub?embedded=true"></iframe>
+                        </div>
 
                     <div class="d13 wow fadeInLeftBig"><h3>ЯНВАРЬ 2022</h3></div>
 
                         <div class="event-item-1 wow fadeInRightBig" style="width: 100%; margon-top: -54px">
-                            <iframe width="100%" height="1970px" frameborder="0" style="margin-top:-25px" src="https://docs.google.com/document/d/e/2PACX-1vT6YGlFyD7W0HRxH84WG1_B5Fn8lxOVkTmbb4ZITuiH4zryn3GNiAuIIIDvXUcVOa3x7nlkpL9DyO1W/pub?embedded=true"></iframe>
+                            <iframe width="100%" height="1900px" frameborder="0" style="margin-top:-25px" src="https://docs.google.com/document/d/e/2PACX-1vT6YGlFyD7W0HRxH84WG1_B5Fn8lxOVkTmbb4ZITuiH4zryn3GNiAuIIIDvXUcVOa3x7nlkpL9DyO1W/pub?embedded=true"></iframe>
                         </div>
+
+					
+					<div class="d13 wow fadeInLeftBig"><h3>ДЕКАБРЬ 2021</h3></div>
+					
+						<div class="event-item-1 wow fadeInRightBig" style="width: 100%;">
+							<iframe width="100%" height="2150px" frameborder="0" style="margin-top:-25px" src="https://docs.google.com/document/d/e/2PACX-1vRgopTnxhH-bP1Uc7dvS9mnuxZyxJt2B4Z1z35EM5G1TaoC-kf41DEvBlt7a6hyUxVTgYE637uBTtG2/pub?embedded=true"></iframe>
+							<!--<div style=""><a href="https://disk.yandex.ru/i/M9_50MSpuReJCA" target="_blank">Скачать</a></div> -->
+						</div>
+
 				</div>
 			</div>	
 

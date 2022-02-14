@@ -744,6 +744,11 @@ if (isset($_GET['route']))
                             break;
                         }
 
+                        case 'sitnikov-va.html': {
+                            include_once SITEROOTDIR.'views/afisha/sitnikov-va.php';
+                            break;
+                        }
+
                         case 'rezhim-raboty-v-prazdniki.html': {
                             include_once SITEROOTDIR.'views/afisha/rezhim-raboty-v-prazdniki.php';
                             break;

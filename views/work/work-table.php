@@ -36,10 +36,50 @@
                     <div class="work-table">
 
                         <h2>На рабочий стол</h2>
+
+                        <h3>2022 год</h3>
+
+                        <table class="table-two-cols">
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">План на 2022 г.</div>
+                                    <div class="table-content-desc">План МБУК Белохолуницкая ЦБ на 2022 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/JcRDRXI0uc3NpQ" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/JcRDRXI0uc3NpQ" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
+
+                        </table>
 						
 						<h3>2021 год</h3>
 
                         <table class="table-two-cols">
+
+                            <tr>
+                                <td>
+                                    <div class="table-content-title">Отчет 2021 г.</div>
+                                    <div class="table-content-desc">Отчет МБУК Белохолуницкая ЦБ за 2021 г.</div>
+                                </td>
+
+                                <td>
+                                    <div class="table-content-files">
+                                        <div class="table-content-files-image"><a href="https://disk.yandex.ru/i/KMqw08z68taCAA" target="_blank"><img src="<?php echo SITEURL;?>images/ui/button-save.png" width="40px" height="40px"></a></div>
+                                        <div class="table-content-files-text">
+                                            <a href="https://disk.yandex.ru/i/KMqw08z68taCAA" class="table-content-link" target="_blank">Скачать</a>
+                                        </div>
+                                    </div>
+
+                                </td>
+                            </tr>
 
                             <tr>
                                 <td>

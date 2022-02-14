@@ -103,7 +103,7 @@
 
     <!-- Scripts -->
     <script src="<?php echo SITEURL;?>js/jquery-3.4.1.min.js"></script>
-    <script src="<?php echo SITEURL;?>js/slider.js?v51"></script>
+    <script src="<?php echo SITEURL;?>js/slider.js?v52"></script>
     <script src="<?php echo SITEURL;?>js/main.js?v01"></script>
     <script src="<?php echo SITEURL;?>js/goodvision.js?v10"></script>
     <script src="<?php echo SITEURL;?>js/hystmodal.min.js"></script>

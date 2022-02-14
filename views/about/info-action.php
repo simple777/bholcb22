@@ -75,13 +75,22 @@
                                 <span style="padding: 0;">План на 2020г.</span>
                             </td>
                             <td>
+                                <a href="<?php echo SITEURL;?>media/about/info/mun-zd/otchet-2020.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/doc-prev.png"  alt="Приказ о назначении директора"></a><br>
+                                <span style="padding: 0;">Отчёт за 2020г.</span>
+                            </td>
+                            <td>
                                 <a href="<?php echo SITEURL;?>media/about/info/mun-zd/plan-2021.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/doc-prev.png"  alt="Устав"></a><br>
                                 <span style="padding: 0;">План на 2021г.<br></span>
                             </td>
                             <td>
-                                <a href="<?php echo SITEURL;?>media/about/info/mun-zd/otchet-2020.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/doc-prev.png"  alt="Приказ о назначении директора"></a><br>
-                                <span style="padding: 0;">Отчёт за 2020г.</span>
+                                <a href="<?php echo SITEURL;?>media/about/info/mun-zd/otchet-2021.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/doc-prev.png"  alt="Устав"></a><br>
+                                <span style="padding: 0;">Отчет за 2021г.<br></span>
                             </td>
+                            <td>
+                                <a href="<?php echo SITEURL;?>media/about/info/mun-zd/plan-2022.pdf" target="_blank"><img src="<?php echo SITEURL;?>images/pages/about/doc-prev.png"  alt="Устав"></a><br>
+                                <span style="padding: 0;">План на 2022г.<br></span>
+                            </td>
+
                         </tr>
                     </table>
 

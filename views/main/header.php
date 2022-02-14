@@ -78,6 +78,15 @@
                         </div>
                     </div>
 
+                    <div class="slide">
+                        <div class="slide-image-wrapper "><a href="<?php echo SITEURL;?>afisha/sitnikov-va.html" class="slide-href" target="_blank"><img src="<?php echo SITEURL;?>media/afisha/2022-02-14-sitnikov.jpg"></a></div>
+                        <div class="slide-text-wrapper">
+                            <h2 class="slide-header">Встреча с вятским писателем!</h2>
+                            <p class="slide-description">16 февраля в 11:00 приглашаем на встречу с вятским писателем Владимиром Арсентьевичем Ситниковым</p>
+                            <div class="slides-navigation"></div>
+                        </div>
+                    </div>
+
                     <div class="slides-fader-controls">
                         <div class="slides-fader-controls-page prev" data-target="prev">&lsaquo;</div>
                         <div class="slides-fader-controls-page next" data-target="next">&rsaquo;</div>
